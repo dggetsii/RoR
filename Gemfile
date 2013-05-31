@@ -6,7 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem 'tinymce-rails', "~>3.5.8.2"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -41,3 +41,5 @@ gem 'railroady'
 gem 'devise'
 
 gem 'rails_admin'
+
+gem 'kaminari'
