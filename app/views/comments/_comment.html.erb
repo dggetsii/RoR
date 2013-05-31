@@ -4,11 +4,11 @@
 </p>
 <p>
   <b>Comment: </b>
-  <%= comment.body %>
+  <%= comment.body.html_safe %>
 </p>
 
 <p>
   <%= link_to 'Delete Comment', [comment.post, comment], 
 		:method => :delete,
-		:confirm => 'Tas crazy?' %>
+		:confirm => '¿Esta seguro?' %>
 </p>
