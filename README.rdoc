@@ -1,4 +1,3 @@
 == Práctica de Ruby on Rails 
 
-  He implementado la caja de texto para los comentarios y post con la gema "tinymce" y he añadido el listado de post con la gema 
-  "kaminari".
+==He implementado la caja de texto para los comentarios y post con la gema "tinymce" y he añadido el listado de post con la gema "kaminari".
